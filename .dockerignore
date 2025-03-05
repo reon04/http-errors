@@ -1,0 +1,16 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Docker
+docker-compose.yml
+Dockerfile
+.docker
+.dockerignore
+
+# Vim swap files
+**/*.swp
+
+# VS Code
+.vscode/
