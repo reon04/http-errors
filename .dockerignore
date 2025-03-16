@@ -14,3 +14,8 @@ Dockerfile
 
 # VS Code
 .vscode/
+
+# custom
+generate_nginx_locations.py
+out.txt
+nginx_locations.txt
