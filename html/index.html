@@ -1,0 +1,137 @@
+<html>
+  <head>
+    <title>HTTP Status Codes</title>
+    <style>
+      h1+h2{margin-top:-10px}
+      h2+p{margin-top:-20px}
+      p+ul{margin-top:-10px}
+      ul{margin-left:-15px}
+      ul+h2{margin-top:-5px}
+      :link,:visited{color:#1313b3}
+      :link:active,:visited:active{color:#FF0000}
+    </style>
+  </head>
+  <body>
+  <h1>HTTP Status Codes</h1>
+  <h2>1xx - Informational Response</h2>
+  <p>The request is still being processed.</p>
+  <ul>
+    <li><a href="/100">100 Continue</a></li>
+    <li><a href="/101">101 Switching Protocols</a></li>
+    <li><a href="/102">102 Processing</a></li>
+    <li><a href="/103">103 Early Hints</a></li>
+  </ul>
+  <h2>2xx - Success</h2>
+  <p>The request was successful, the answer can be utilized.</p>
+  <ul>
+    <li><a href="/200">200 OK</a></li>
+    <li><a href="/201">201 Created</a></li>
+    <li><a href="/202">202 Accepted</a></li>
+    <li><a href="/203">203 Non-Authoritative Information</a></li>
+    <li><a href="/204">204 No Content</a></li>
+    <li><a href="/205">205 Reset Content</a></li>
+    <li><a href="/206">206 Partial Content</a></li>
+    <li><a href="/207">207 Multi-Status</a></li>
+    <li><a href="/208">208 Already Reported</a></li>
+    <li><a href="/226">226 IM Used</a></li>
+  </ul>
+  <h2>3xx - Redirection</h2>
+  <p>The client must take additional action to complete the request.</p>
+  <ul>
+    <li><a href="/300">300 Multiple Choices</a></li>
+    <li><a href="/301">301 Moved Permanently</a></li>
+    <li><a href="/302">302 Found (Moved Temporarily)</a></li>
+    <li><a href="/303">303 See Other</a></li>
+    <li><a href="/304">304 Not Modified</a></li>
+    <li><a href="/305">305 Use Proxy</a></li>
+    <li><a href="/306">306 (reserved)</a></li>
+    <li><a href="/307">307 Temporary Redirect</a></li>
+    <li><a href="/308">308 Permanent Redirect</a></li>
+  </ul>
+  <h2>4xx - Client Errors</h2>
+  <p>The client has caused an error.</p>
+  <ul>
+    <li><a href="/400">400 Bad Request</a></li>
+    <li><a href="/401">401 Unauthorized</a></li>
+    <li><a href="/402">402 Payment Required</a></li>
+    <li><a href="/403">403 Forbidden</a></li>
+    <li><a href="/404">404 Not Found</a></li>
+    <li><a href="/405">405 Method Not Allowed</a></li>
+    <li><a href="/406">406 Not Acceptable</a></li>
+    <li><a href="/407">407 Proxy Authentication Required</a></li>
+    <li><a href="/408">408 Request Timeout</a></li>
+    <li><a href="/409">409 Conflict</a></li>
+    <li><a href="/410">410 Gone</a></li>
+    <li><a href="/411">411 Length Required</a></li>
+    <li><a href="/412">412 Precondition Failed</a></li>
+    <li><a href="/413">413 Payload Too Large</a></li>
+    <li><a href="/414">414 URI Too Long</a></li>
+    <li><a href="/415">415 Unsupported Media Type</a></li>
+    <li><a href="/416">416 Range Not Satisfiable</a></li>
+    <li><a href="/417">417 Expectation Failed</a></li>
+    <li><a href="/418">418 I'm a teapot</a></li>
+    <li><a href="/421">421 Misdirected Request</a></li>
+    <li><a href="/422">422 Unprocessable Entity</a></li>
+    <li><a href="/423">423 Locked</a></li>
+    <li><a href="/424">424 Failed Dependency</a></li>
+    <li><a href="/425">425 Too Early</a></li>
+    <li><a href="/426">426 Upgrade Required</a></li>
+    <li><a href="/428">428 Precondition Required</a></li>
+    <li><a href="/429">429 Too Many Requests</a></li>
+    <li><a href="/431">431 Request Header Fields Too Large</a></li>
+    <li><a href="/451">451 Unavailable For Legal Reasons</a></li>
+  </ul>
+  <h2>5xx - Server Errors</h2>
+  <p>The server failed to fulfil a request.</p>
+  <ul>
+    <li><a href="/500">500 Internal Server Error</a></li>
+    <li><a href="/501">501 Not Implemented</a></li>
+    <li><a href="/502">502 Bad Gateway</a></li>
+    <li><a href="/503">503 Service Unavailable</a></li>
+    <li><a href="/504">504 Gateway Timeout</a></li>
+    <li><a href="/505">505 HTTP Version not supported</a></li>
+    <li><a href="/506">506 Variant Also Negotiates</a></li>
+    <li><a href="/507">507 Insufficient Storage</a></li>
+    <li><a href="/508">508 Loop Detected</a></li>
+    <li><a href="/510">510 Not Extended</a></li>
+    <li><a href="/511">511 Network Authentication Required</a></li>
+  </ul>
+  <h2>Unofficial Codes</h2>
+  <p>The following codes are not specified by any standard.</p>
+  <ul>
+    <li><a href="214">214 Transformation Applied</a></li>
+	  <li><a href="218">218 This is fine</a></li>
+	  <li><a href="299">299 Miscellaneous Persistent Warning</a></li>
+	  <li><a href="419">419 Page Expired</a></li>
+	  <li><a href="420">420 Enhance Your Calm</a></li>
+	  <li><a href="430">430 Shopify Security Rejection</a></li>
+	  <li><a href="440">440 Login Time-out</a></li>
+	  <li><a href="444">444 No Response</a></li>
+	  <li><a href="449">449 Retry With</a></li>
+	  <li><a href="450">450 Blocked by Windows Parental Controls</a></li>
+	  <li><a href="494">494 Request header too large</a></li>
+	  <li><a href="495">495 SSL Certificate Error</a></li>
+	  <li><a href="496">496 SSL Certificate Required</a></li>
+	  <li><a href="497">497 HTTP Request Sent to HTTPS Port</a></li>
+	  <li><a href="498">498 Invalid Token</a></li>
+	  <li><a href="499">499 Client Closed Request</a></li>
+	  <li><a href="509">509 Bandwidth Limit Exceeded</a></li>
+	  <li><a href="520">520 Web Server Returned an Unknown Error</a></li>
+	  <li><a href="521">521 Web Server Is Down</a></li>
+	  <li><a href="522">522 Connection Timed Out</a></li>
+	  <li><a href="523">523 Origin Is Unreachable</a></li>
+	  <li><a href="524">524 A Timeout Occurred</a></li>
+	  <li><a href="525">525 SSL Handshake Failed</a></li>
+	  <li><a href="526">526 Invalid SSL Certificate</a></li>
+	  <li><a href="527">527 Railgun Error</a></li>
+	  <li><a href="529">529 Site is overloaded</a></li>
+	  <li><a href="530">530 Site is frozen</a></li>
+	  <li><a href="540">540 Temporarily Disabled</a></li>
+	  <li><a href="561">561 Unauthorized</a></li>
+	  <li><a href="598">598 Network read timeout error</a></li>
+	  <li><a href="599">599 Network Connect Timeout Error</a></li>
+	  <li><a href="783">783 Unexpected Token</a></li>
+  </ul>
+  <hr><center>nginx/1.27.4</center>
+  </body>
+</html>
