@@ -17,5 +17,3 @@ Dockerfile
 
 # custom
 generate_nginx_locations.py
-out.txt
-nginx_locations.txt
