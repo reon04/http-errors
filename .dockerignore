@@ -16,4 +16,5 @@ Dockerfile
 .vscode/
 
 # custom
+.github/
 generate_nginx_locations.py
